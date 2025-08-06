@@ -1,0 +1,11 @@
+name:print_hi
+on:
+  pull_request:
+    branches:
+    - main
+  jobs:
+  print_hi:
+  runs-on: ubuntu-22.04
+  steps:
+  -uses: actions/setup-node@v4
+  
